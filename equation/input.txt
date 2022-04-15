@@ -1,0 +1,45 @@
+split with | to find 1.variable and 2.repsective values
+primarySplit -> equation string and dictionary of vars and vals and grd wrt var
+equation string to char array with taking into consideration the log and other things in string
+grd wrt var is must in this case | x 
+(x^2+2xy+logx)^(2^x) | x | x,y | 10,2
+(x^2+2xy+logx)^(2^x) | x | x,y
+(x^2+2xy+logx)^(2^x) | x  
+
+Types of equation
+
+x^2+2xy -> EXP ADD MUL
+(x^2 + 4xy)^(2^x) -> EXP ADD MUL
+log(x^2 + 4xy) -> LOG EXP ADD MUL
+sin(log(x^2/2y + 4xy))
+sin ( log ( x^2/2y))
+sin ( log ( x^2 + 4xy ) )
+sin(log(x^2 + 4xy - 2x)) * (4x*cosy)
+
+x^2 + 4y
+
+x^2
++
+4y
+
+for each in arr :
+    if each is key:
+        Node prev = Node(Operation(prev,createGraph()))
+    else:
+        Node prev = createGraph(each)
+
+LIATE
+Logarithmic InverseTrig Arithmetic Trignometric Exponential  
+
+Arithmetic Seq -> close -> Mul Div 
+                  dist  -> Add Sub Pow Log Trig InvTrig
+
+2^x     -> split by func 
+2^3     -> --
+
+5       -> const case
+156     -> --
+
+24xy    -> if contains vars then
+3x
+9xy
